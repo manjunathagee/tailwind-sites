@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login Modal</title>
+  </head>
+  <body class="bg-red-50">
+    <div class="flex justify-center items-center min-h-screen">
+      <div class="flex relative">
+        <div
+          class="bg-white rounded-xl shadow-2xl p-4 md:p-20 flex flex-col space-y-4 divide-y-2 max-w-lg md:w-full"
+        >
+          <div>
+            <div class="flex justify-between">
+              <div class="text-2xl font-bold font-mono tracking-tight">
+                Log In
+              </div>
+            </div>
+            <p class="my-6 font-thin font-sans">
+              Log in to your account to upload or download picture, videos or
+              music.
+            </p>
+            <input
+              class="w-full border rounded-lg px-4 py-5 font-light my-6"
+              type="email"
+              placeholder="Enter your email address"
+            />
+            <div
+              class="flex flex-col items-center space-y-4 md:flex-row md:justify-between mb-8"
+            >
+              <a class="font-light text-cyan-700" href="javascript:void(0)"
+                >Forgot password</a
+              >
+              <button
+                class="my-6 md:w-40 w-full flex justify-center items-center rounded-lg space-x-4 bg-cyan-700 text-white py-6 transition duration-150 hover:bg-cyan-600 hover:-translate-y-0.5"
+              >
+                <span>Next</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <p class="my-4 font-light text-slate-400 text-sm">or log in with</p>
+            <div
+              class="flex flex-col space-y-2 space-x-0 md:flex-row md:space-x-4 md:space-y-0 items-center"
+            >
+              <button
+                class="border rounded-lg w-full py-3 my-4 hover:shadow-lg transition hover:-translate-y-0.5 duration-200"
+              >
+                <img
+                  src="./images/facebook.png"
+                  class="inline-block h-8 w-8 mr-2"
+                  alt="Facebook"
+                />
+                <span class="font-light">Facebook</span>
+              </button>
+              <button
+                class="border rounded-lg w-full py-3 mb-4 hover:shadow-lg transition hover:-translate-y-0.5 duration-200"
+              >
+                <img
+                  src="./images/google.png"
+                  class="inline-block h-8 w-8 mr-2"
+                  alt="Google"
+                />
+                <span class="font-light">Google</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[url('./images/image.jpg')] hidden md:block md:w-[430px] rounded-r-xl"
+        ></div>
+        <div class="h-4 w-4 p-4 rounded-full bg-white absolute right-2 top-2">
+          <div class="h-0.5 w-4 bg-black absolute rotate-45 left-2"></div>
+          <div class="h-0.5 w-4 bg-black absolute -rotate-45 left-2"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
