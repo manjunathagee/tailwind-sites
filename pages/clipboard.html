@@ -7,191 +7,197 @@
     <title>Clipboard</title>
   </head>
   <body>
-    <section
-      class="bg-[url('../images/bg-header-desktop.png')] bg-cover bg-no-repeat"
-    >
-      <div class="flex flex-col items-center">
-        <img src="../images/logo.svg" class="mt-28 my-16" alt="logo" />
-        <h3 class="text-5xl font-medium text-center text-black/70">
-          A history of everything you copy
-        </h3>
-        <p
-          class="text-2xl max-w-2xl text-slate-400/80 text-center my-8 leading-9"
+    <div class="container w-screen mx-auto">
+      <section
+        class="bg-[url('../images/bg-header-desktop.png')] bg-cover bg-no-repeat"
+      >
+        <div class="flex flex-col items-center">
+          <img src="../images/logo.svg" class="mt-28 my-16" alt="logo" />
+          <h3 class="text-5xl font-medium text-center text-black/70">
+            A history of everything you copy
+          </h3>
+          <p
+            class="text-2xl max-w-2xl text-slate-400/80 text-center my-8 leading-9"
+          >
+            Clipboard allows you to track and organize everything you copy.
+            Instantly access your clipboard on all your devices.
+          </p>
+          <div
+            class="flex flex-col md:flex-row space-x-0 space-y-4 md:space-y-0 md:space-x-4 justify-center mx-auto w-[80%]"
+          >
+            <button
+              class="bg-teal-500/80 rounded-full py-4 px-8 shadow-lg hover:bg-teal-500/70 duration-100 text-white text-xl"
+            >
+              Download for iOS
+            </button>
+
+            <button
+              class="bg-blue-500/80 rounded-full py-4 px-8 shadow-lg hover:bg-blue-500/70 duration-100 text-white text-xl"
+            >
+              Download for Mac
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="my-20">
+        <div class="flex flex-col items-center space-y-10">
+          <h3 class="text-black/70 tracking-wide text-5xl text-center">
+            Keep track of your snippets
+          </h3>
+          <p class="max-w-3xl text-center text-black/50 text-lg tracking-wide">
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
+          </p>
+        </div>
+      </section>
+      <section class="my-20 mx-10">
+        <div
+          class="flex flex-col items-center md:items-stretch space-y-8 space-x-0 md:flex-row md:space-x-20 md:space-y-0 md:justify-center"
         >
-          Clipboard allows you to track and organize everything you copy.
-          Instantly access your clipboard on all your devices.
+          <img
+            class="max-w-lg"
+            src="../images/image-computer.png"
+            alt="system-img"
+          />
+          <div class="md:text-left text-center max-w-md">
+            <h4 class="text-2xl text-black/70 font-bold my-2">Quick Search</h4>
+            <p class="text-lg text-black/60 tracking-wide">
+              Easily search your snippets by content, category, web address,
+              application, and more.
+            </p>
+            <h4 class="text-2xl text-black/70 font-bold my-2 mt-12">
+              iCloud Sync
+            </h4>
+            <p class="text-lg text-black/60 tracking-wide">
+              Instantly saves and syncs snippets across all your devices.
+            </p>
+            <h4 class="text-2xl text-black/70 font-bold my-2 mt-12">
+              Completely History
+            </h4>
+            <p class="text-lg text-black/60 tracking-wide">
+              Retrieve any snippets from the first moment you started using the
+              app.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="my-20 mx-10">
+        <div class="flex flex-col space-y-8 justify-center">
+          <h3 class="text-black/70 text-5xl text-center">
+            Access Clipboard Anywhere
+          </h3>
+          <p class="text-center text-xl max-w-3xl mx-auto text-black/50">
+            Whether you’re on the go, or at your computer, you can access all
+            your Clipboard snippets in a few simple clicks.
+          </p>
+          <img
+            src="../images/image-devices.png"
+            class="max-w-full mx-auto"
+            alt="mobile"
+          />
+        </div>
+      </section>
+      <section class="my-20 mx-10">
+        <h3 class="text-center text-5xl text-black/70 my-4 mb-6">
+          Supercharge your workflow
+        </h3>
+        <p class="text-center text-black/50 max-w-2xl mx-auto text-lg">
+          We've got the tools to boost your productivity.
         </p>
         <div
-          class="flex flex-col md:flex-row space-x-0 space-y-4 md:space-y-0 md:space-x-4 justify-center mx-auto w-[80%]"
+          class="flex flex-col space-y-8 space-x-0 md:flex-row md:space-y-0 md:space-x-4 mt-16"
         >
-          <button
-            class="bg-teal-500/80 rounded-full py-4 px-8 shadow-lg hover:bg-teal-500/70 duration-100 text-white text-xl"
-          >
-            Download for iOS
-          </button>
-
-          <button
-            class="bg-blue-500/80 rounded-full py-4 px-8 shadow-lg hover:bg-blue-500/70 duration-100 text-white text-xl"
-          >
-            Download for Mac
-          </button>
+          <div class="flex flex-col space-y-6 justify-center items-center">
+            <img
+              src="../images/icon-blacklist.svg"
+              class="mx-auto"
+              alt="blacklisted-items"
+            />
+            <h5 class="text-2xl text-black/80">Create Blacklists</h5>
+            <p class="text-center text-black/50">
+              Easily search your snippets by content, category, web address,
+              application, and more.
+            </p>
+          </div>
+          <div class="flex flex-col space-y-6 justify-center items-center">
+            <img
+              src="../images/icon-text.svg"
+              class="mx-auto"
+              alt="blacklisted-items"
+            />
+            <h5 class="text-2xl text-black/80">Plain Text Snippets</h5>
+            <p class="text-center text-black/50">
+              Remove unwanted formatting from copied text for a consistent look.
+            </p>
+          </div>
+          <div class="flex flex-col space-y-6 justify-center items-center">
+            <img
+              src="../images/icon-preview.svg"
+              class="mx-auto"
+              alt="blacklisted-items"
+            />
+            <h5 class="text-2xl text-black/80">Sneak Preview</h5>
+            <p class="text-center text-black/50">
+              Quick preview of all snippets on your Clipboard for easy access.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="my-28">
-      <div class="flex flex-col items-center space-y-10">
-        <h3 class="text-black/70 tracking-wide text-5xl text-center">
-          Keep track of your snippets
-        </h3>
-        <p class="max-w-3xl text-center text-black/50 text-lg tracking-wide">
-          Clipboard instantly stores any item you copy in the cloud, meaning you
-          can access your snippets immediately on all your devices. Our Mac and
-          iOS apps will help you organize everything.
-        </p>
-      </div>
-    </section>
-    <section class="my-28 mx-10">
-      <div
-        class="flex flex-col items-center md:items-stretch space-y-8 space-x-0 md:flex-row md:space-x-20 md:space-y-0 md:justify-center"
-      >
-        <img
-          class="max-w-lg"
-          src="../images/image-computer.png"
-          alt="system-img"
-        />
-        <div class="md:text-left text-center max-w-md">
-          <h4 class="text-2xl text-black/70 font-bold my-2">Quick Search</h4>
-          <p class="text-lg text-black/60 tracking-wide">
-            Easily search your snippets by content, category, web address,
-            application, and more.
-          </p>
-          <h4 class="text-2xl text-black/70 font-bold my-2 mt-12">
-            iCloud Sync
-          </h4>
-          <p class="text-lg text-black/60 tracking-wide">
-            Instantly saves and syncs snippets across all your devices.
-          </p>
-          <h4 class="text-2xl text-black/70 font-bold my-2 mt-12">
-            Completely History
-          </h4>
-          <p class="text-lg text-black/60 tracking-wide">
-            Retrieve any snippets from the first moment you started using the
-            app.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section class="my-20 mx-10">
-      <div class="flex flex-col space-y-8 justify-center">
-        <h3 class="text-black/70 text-5xl text-center">
-          Access Clipboard Anywhere
-        </h3>
-        <p class="text-center text-xl max-w-3xl mx-auto text-black/50">
-          Whether you’re on the go, or at your computer, you can access all your
-          Clipboard snippets in a few simple clicks.
-        </p>
-        <img
-          src="../images/image-devices.png"
-          class="max-w-full mx-auto"
-          alt="mobile"
-        />
-      </div>
-    </section>
-    <section class="my-20 mx-10">
-      <h3 class="text-center text-5xl text-black/70 my-4 mb-6">
-        Supercharge your workflow
-      </h3>
-      <p class="text-center text-black/50 max-w-2xl mx-auto text-lg">
-        We've got the tools to boost your productivity.
-      </p>
-      <div
-        class="flex flex-col space-y-8 space-x-0 md:flex-row md:space-y-0 md:space-x-4 mt-16"
-      >
-        <div class="flex flex-col space-y-6 justify-center items-center">
-          <img
-            src="../images/icon-blacklist.svg"
-            class="mx-auto"
-            alt="blacklisted-items"
-          />
-          <h5 class="text-2xl text-black/80">Create Blacklists</h5>
-          <p class="text-center text-black/50">
-            Easily search your snippets by content, category, web address,
-            application, and more.
-          </p>
-        </div>
-        <div class="flex flex-col space-y-6 justify-center items-center">
-          <img
-            src="../images/icon-text.svg"
-            class="mx-auto"
-            alt="blacklisted-items"
-          />
-          <h5 class="text-2xl text-black/80">Plain Text Snippets</h5>
-          <p class="text-center text-black/50">
-            Remove unwanted formatting from copied text for a consistent look.
-          </p>
-        </div>
-        <div class="flex flex-col space-y-6 justify-center items-center">
-          <img
-            src="../images/icon-preview.svg"
-            class="mx-auto"
-            alt="blacklisted-items"
-          />
-          <h5 class="text-2xl text-black/80">Sneak Preview</h5>
-          <p class="text-center text-black/50">
-            Quick preview of all snippets on your Clipboard for easy access.
-          </p>
-        </div>
-      </div>
-      <div
-        class="flex flex-col space-y-16 space-x-0 md:flex-row md:space-y-0 md:space-x-8 mt-16 items-center justify-between"
-      >
-        <img
-          src="../images/logo-google.png"
-          class="max-w-sm"
-          alt="Google logo"
-        />
-        <img src="../images/logo-ibm.png" class="max-w-sm" alt="Google logo" />
-        <img
-          src="../images/logo-microsoft.png"
-          class="mx-auto"
-          alt="Google logo"
-        />
-        <img src="../images/logo-hp.png" class="max-w-sm" alt="Google logo" />
-        <img
-          src="../images/logo-vector-graphics.png"
-          class="max-w-sm"
-          alt="Google logo"
-        />
-      </div>
-    </section>
-    <section class="my-20 mx-10">
-      <div class="flex flex-col items-center">
-        <h3 class="text-5xl font-medium text-center text-black/70">
-          Clipboard for iOS and MacOS
-        </h3>
-        <p
-          class="text-2xl max-w-2xl text-slate-400/80 text-center my-8 leading-9"
-        >
-          Available for free on the App Store. Download for Mac or iOS, sync
-          with iCloud and you're ready to start adding to your clipboard.
-        </p>
         <div
-          class="flex flex-col md:flex-row space-x-0 space-y-4 md:space-y-0 md:space-x-4 justify-center mx-auto w-[80%]"
+          class="flex flex-col space-y-16 space-x-0 md:flex-row md:space-y-0 md:space-x-8 mt-16 items-center justify-between"
         >
-          <button
-            class="bg-teal-500/80 rounded-full py-4 px-8 shadow-lg hover:bg-teal-500/70 duration-100 text-white text-xl"
-          >
-            Download for iOS
-          </button>
-
-          <button
-            class="bg-blue-500/80 rounded-full py-4 px-8 shadow-lg hover:bg-blue-500/70 duration-100 text-white text-xl"
-          >
-            Download for Mac
-          </button>
+          <img
+            src="../images/logo-google.png"
+            class="max-w-sm"
+            alt="Google logo"
+          />
+          <img
+            src="../images/logo-ibm.png"
+            class="max-w-sm"
+            alt="Google logo"
+          />
+          <img
+            src="../images/logo-microsoft.png"
+            class="mx-auto"
+            alt="Google logo"
+          />
+          <img src="../images/logo-hp.png" class="max-w-sm" alt="Google logo" />
+          <img
+            src="../images/logo-vector-graphics.png"
+            class="max-w-sm"
+            alt="Google logo"
+          />
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="my-20 mx-10">
+        <div class="flex flex-col items-center">
+          <h3 class="text-5xl font-medium text-center text-black/70">
+            Clipboard for iOS and MacOS
+          </h3>
+          <p
+            class="text-2xl max-w-2xl text-slate-400/80 text-center my-8 leading-9"
+          >
+            Available for free on the App Store. Download for Mac or iOS, sync
+            with iCloud and you're ready to start adding to your clipboard.
+          </p>
+          <div
+            class="flex flex-col md:flex-row space-x-0 space-y-4 md:space-y-0 md:space-x-4 justify-center mx-auto w-[80%]"
+          >
+            <button
+              class="bg-teal-500/80 rounded-full py-4 px-8 shadow-lg hover:bg-teal-500/70 duration-100 text-white text-xl"
+            >
+              Download for iOS
+            </button>
+
+            <button
+              class="bg-blue-500/80 rounded-full py-4 px-8 shadow-lg hover:bg-blue-500/70 duration-100 text-white text-xl"
+            >
+              Download for Mac
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
     <footer class="bg-gray-50">
       <div class="container p-1 px-10 mx-auto">
         <div
